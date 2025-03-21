@@ -6,7 +6,13 @@ public class scanner {
         String name=sc.next();
     
         Scanner sc1 = new Scanner(System.in);
-        String collageName=sc1.nextLine();
+        short collageName=sc1.nextShort();
+        //nextInt()
+        //nextBoolean()
+        //nextFloat()
+        //nextLine()
+        //nextDouble()
+
         System.out.println("Name: "+name+" collage name: "+collageName);
     }
 }
