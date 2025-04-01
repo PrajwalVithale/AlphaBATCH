@@ -7,13 +7,12 @@ public class reversenumber {
         int x=sc.nextInt();
         //int x=6549;
         int y;
-        
+
         String j=Integer.toString(x);
         for(int i=0;i<j.length();i++){
             y=x%10;      
             System.out.print(y);
             x=x/10;
         }
-        //System.out.println("Reversed : "  );
     }
 }
