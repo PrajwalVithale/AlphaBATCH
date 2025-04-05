@@ -11,6 +11,7 @@ public class breakstatement {
                 break;
             }
         }
-        System.out.println("Out of loop(multiple of 10) ->"+n); 
+        System.out.println("Out of loop(multiple of 10) ->"+n);
+        sc.close(); 
     }
 }

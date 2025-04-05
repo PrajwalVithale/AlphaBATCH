@@ -15,5 +15,6 @@ public class add2number {
 
         int c=addNum(x, y);
         System.out.println("Sum is :"+c);
+        sc.close();
     }
 }

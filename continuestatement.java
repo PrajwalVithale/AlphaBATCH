@@ -15,6 +15,7 @@ public class continuestatement {
             }
             System.out.println(n);
         }while (true); 
+        sc.close();
     }  
 }
 

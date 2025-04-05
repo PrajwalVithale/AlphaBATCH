@@ -15,5 +15,6 @@ public class factorial {
         int n=sc.nextInt();
         int z=Factorial(n);
         System.out.println("FActorial :"+z);
+        sc.close();
     }
 }

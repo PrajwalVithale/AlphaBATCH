@@ -11,5 +11,6 @@ public class addUserInput {
         System.out.println("Substraction is :"+(a-b));
         System.out.println("Product is: "+(a*b));
         System.out.println("Divide is: "+(a/b));
+        sc.close();
     }
 }

@@ -73,5 +73,6 @@ public class assignment2{
         }else{
             System.out.println("Non leap Year!");
         }
+        sc.close();
     }
 }

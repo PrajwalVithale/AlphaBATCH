@@ -14,5 +14,7 @@ public class scanner {
         //nextDouble()
 
         System.out.println("Name: "+name+" collage name: "+collageName);
+        sc.close();
+        sc1.close();
     }
 }

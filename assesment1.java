@@ -29,5 +29,6 @@ public class assesment1 {
 
         float total=(((pencil+pen+Eraser)*18)/100);
         System.out.println("Total with 18% GST is: "+total);
+        sc.close();
     }
 }

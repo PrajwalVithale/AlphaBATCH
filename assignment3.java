@@ -42,6 +42,6 @@ public class assignment3 {
         // for(int i=1;i<=10;i++){
         //     System.out.println(x+" X "+i+" = "+x*i);
         // }
-
+        sc.close();
     }
 }

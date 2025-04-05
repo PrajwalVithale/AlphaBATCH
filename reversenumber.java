@@ -14,5 +14,6 @@ public class reversenumber {
             x=x/10;
         }
         //System.out.println("Reversed : "  );
+        sc.close();
     }
 }

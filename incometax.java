@@ -18,6 +18,6 @@ public class incometax {
          var3 = (float)var2 - (float)var2 * 0.3F;
          System.out.println("After 30% tax: " + var3);
       }
-
+      var1.close();
    }
 }
