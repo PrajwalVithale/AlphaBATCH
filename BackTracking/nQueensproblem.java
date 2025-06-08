@@ -25,10 +25,13 @@ public class nQueensproblem {
     }
 
     public static void nqueens(char boards[][],int row){
+      
         if(row==boards.length){
+            count++;
             printborard(boards);
             return;
         }
+        
         for(int j=0;j<boards.length;j++){
             if(isSafe(boards,row,j)){
                 boards[row][j]='Q';
@@ -36,7 +39,10 @@ public class nQueensproblem {
                 boards[row][j]='X';
             }   
         }
+        
     }
+
+    public static int count=0;
 
     public static void printborard(char boards[][]){
         System.out.println("---------------CHESS BOARD-------------------");
@@ -58,5 +64,7 @@ public class nQueensproblem {
         }
 
         nqueens(board,0);
+        System.out.println("Total Number of Ways Queens can be Keep is: "+count);
+        
     }
 }
