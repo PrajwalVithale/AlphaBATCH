@@ -24,21 +24,24 @@ public class nQueensproblem {
         return true;
     }
 
-    public static void nqueens(char boards[][],int row){
+    public static boolean nqueens(char boards[][],int row){
       
         if(row==boards.length){
             count++;
-            printborard(boards);
-            return;
+            //printborard(boards);
+            return true;
         }
         
         for(int j=0;j<boards.length;j++){
             if(isSafe(boards,row,j)){
                 boards[row][j]='Q';
-                nqueens(boards, row+1);
+                if(nqueens(boards, row+1)){
+                    return true;
+                }
                 boards[row][j]='X';
             }   
         }
+        return false;
         
     }
 
@@ -54,7 +57,7 @@ public class nQueensproblem {
         }
     }
     public static void main(String[] args) {
-        int n=6;
+        int n=4;
         char board[][]=new char[n][n];
 
         for(int i=0;i<n;i++){
@@ -63,8 +66,13 @@ public class nQueensproblem {
             }
         }
 
-        nqueens(board,0);
-        System.out.println("Total Number of Ways Queens can be Keep is: "+count);
+        if(nqueens(board,0)){
+            System.out.println("SOlution is ppossible");
+            printborard(board);
+        }else{
+            System.out.println("Solution is not possible");
+        }
+        //System.out.println("Total Number of Ways Queens can be Keep is: "+count);
         
     }
 }
