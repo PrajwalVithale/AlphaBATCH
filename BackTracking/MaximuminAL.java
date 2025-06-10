@@ -16,6 +16,7 @@ public class MaximuminAL {
             // if(list.get(i)>max){
             //     max=list.get(i);
             // }
+            //OR
             max=Math.max(max, list.get(i));
         }
         System.out.println("Maximum number is "+max);
