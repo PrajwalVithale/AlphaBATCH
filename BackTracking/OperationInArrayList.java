@@ -22,11 +22,11 @@ public class OperationInArrayList {
 
         //Remove
         list.remove(4);
-        //System.out.println(list);
+        System.out.println(list);
 
         //Set
         list.set(3, 7);
-        //System.out.println(list);
+        System.out.println(list);
 
         //contains
         System.out.println(list.contains(7));//true
