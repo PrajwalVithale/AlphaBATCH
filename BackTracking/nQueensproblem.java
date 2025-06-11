@@ -67,7 +67,7 @@ public class nQueensproblem {
         }
 
         if(nqueens(board,0)){
-            System.out.println("SOlution is ppossible");
+            System.out.println("SOlution is possible");
             printborard(board);
         }else{
             System.out.println("Solution is not possible");
