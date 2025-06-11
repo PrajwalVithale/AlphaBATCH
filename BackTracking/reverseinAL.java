@@ -9,7 +9,7 @@ public class reverseinAL {
         list.add(6);
         list.add(8);
         list.add(10);
-
+        //Reverse loop
         for(int i=list.size()-1;i>=0;i--){
             System.out.print(list.get(i)+" ");
         }
