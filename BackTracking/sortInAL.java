@@ -13,6 +13,7 @@ public class sortInAL {
         list.add(1);
 
         System.out.println(list);
+        //inbuilt function
         Collections.sort(list);
         System.out.println(list);
 
