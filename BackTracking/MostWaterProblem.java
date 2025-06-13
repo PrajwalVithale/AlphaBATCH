@@ -1,7 +1,7 @@
 package BackTracking;
 
 import java.util.ArrayList;
-//BruteForce
+//BruteForce Approach
 //O(n^2)
 public class MostWaterProblem{
 
