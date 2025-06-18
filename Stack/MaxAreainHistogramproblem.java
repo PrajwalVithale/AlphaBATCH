@@ -7,7 +7,7 @@ public class MaxAreainHistogramproblem {
         int maxArea=0;
         int nsr[]=new int[arr.length];
         int nsl[]=new int[arr.length];
-
+        //NEXT SMALLEST RIGHT
         Stack<Integer> s=new Stack<>();
         for(int i=arr.length-1;i>=0;i--){
             while(!s.isEmpty() && arr[s.peek()] >= arr[i]){
@@ -22,7 +22,7 @@ public class MaxAreainHistogramproblem {
 
             s.push(i);
         }
-
+        //NEXT SMALLEST LEFT
         s=new Stack<>();
         for(int i=0;i<arr.length;i++){
             while(!s.isEmpty() && arr[s.peek()] >= arr[i]){
@@ -37,7 +37,7 @@ public class MaxAreainHistogramproblem {
 
             s.push(i);
         }
-
+        //CALCULATE MAXAREA
         for(int i=0;i<arr.length;i++){
             int height=arr[i];
             int width=nsr[i]-nsl[i]-1;
