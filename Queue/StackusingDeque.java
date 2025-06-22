@@ -1,6 +1,7 @@
 package Queue;
 import java.util.*;
 
+//addLast--removeLast--getLast
 public class StackusingDeque {
     static class Stack{
         Deque<Integer> deque=new LinkedList<>();
