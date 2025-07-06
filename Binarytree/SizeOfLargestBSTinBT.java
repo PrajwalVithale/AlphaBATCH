@@ -11,7 +11,7 @@ public class SizeOfLargestBSTinBT {
             this.right=null;
         }
     }
-
+ // TC-O(n)
     static class Info{
         boolean isBST;
         int size;
