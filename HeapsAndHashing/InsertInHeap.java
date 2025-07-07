@@ -16,7 +16,7 @@ public class InsertInHeap {
             al.set(par, temp);
         }
     }
-
+    //root element
     public static int peek(){
         return al.get(0);
     }
