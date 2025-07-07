@@ -1,6 +1,7 @@
 package HeapsAndHashing;
 import java.util.*;
 
+//O(logn)
 public class InsertInHeap {
     static ArrayList<Integer> al=new ArrayList<>();
     public static void add(int data){
